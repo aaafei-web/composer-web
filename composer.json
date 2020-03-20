@@ -1,0 +1,20 @@
+{
+    "name": "aaafei-web/composer-web",
+    "type": "project",
+    "license": "KIT",
+    "authors": [
+        {
+            "name": "阿飞",
+            "email": "1625895247@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php":">=7.0.0"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"Abstarfish\\Starfish\\" :"src/Abstarfish/Starfish"
+    	}
+    }
+}
